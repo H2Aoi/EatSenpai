@@ -14,4 +14,4 @@ _🦌 网页小游戏 🥛_
 
 小游戏：怒斩东雪莲
 
-Fork form [EatSenpai]
+Fork form [EatSenpai](https://github.com/kifuan/EatSenpai)
