@@ -412,15 +412,15 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
 
         if (mode === MODE_ENDLESS) {
-            if (score <= 5) return '人间至屑';
-            if (score <= 8) return '斯国一(迫真)';
-            if (score <= 10)  return 'sodayo';
-            return '压力马斯内';
+            if (score <= 5) return '我抗压能力很强';
+            if (score <= 8) return '论国籍我是日v';
+            if (score <= 10)  return '我是一个罕见';
+            return '抗日奇侠';
         } else {
-            if (score <= 49) return '人间至屑';
-            if (score <= 99) return '斯国一(迫真)';
-            if (score <= 149) return 'sodayo';
-            return '压力马斯内';
+            if (score <= 49) return '我抗压能力很强';
+            if (score <= 99) return '论国籍我是日v';
+            if (score <= 149) return '我是一个罕见';
+            return '抗日奇侠';
         }
     }
 
@@ -458,7 +458,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     function initSetting() {
         document.getElementById("username").value = cookie("username") ? cookie("username") : "";
         document.getElementById("message").value = cookie("message") ? cookie("message") : "";
-        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "撅 仙 贝 罢";
+        document.getElementsByTagName("title")[0].innerText = cookie("title") ? cookie("title") : "怒斩东雪莲";
         if (cookie("keyboard")) {
             document.getElementById("keyboard").value = cookie("keyboard");
             map = {}
