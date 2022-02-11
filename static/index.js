@@ -415,12 +415,12 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             if (score <= 5) return '我抗压能力很强';
             if (score <= 8) return '论国籍我是日v';
             if (score <= 10)  return '我是一个罕见';
-            return '抗日奇侠';
+            return '什么抗日奇侠';
         } else {
             if (score <= 49) return '我抗压能力很强';
             if (score <= 99) return '论国籍我是日v';
             if (score <= 149) return '我是一个罕见';
-            return '抗日奇侠';
+            return '什么抗日奇侠';
         }
     }
 
